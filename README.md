@@ -13,7 +13,8 @@ Tendo acesso ao prompt de comando
 
 -> git clone "endereço do projeto no git hub"
 
-exemplo -> git clone
+exemplo:
+-> git clone https://github.com/Helivelto/projeto-node.git
 
 Iniciar o arquivo de configuração package.json
 -> npm init -y
