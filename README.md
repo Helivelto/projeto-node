@@ -44,8 +44,8 @@ npm install nodemon -D    (por exemplo)
 No package.json
 
 "scripts": {
-  "morango": "nodemon server.js"
+  "dev": "nodemon server.js"
 }
 
 No prompt você executa:
-npm run morango
+npm run dev
