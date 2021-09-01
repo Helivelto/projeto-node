@@ -45,6 +45,17 @@ Não excluir qualquer pasta dentro de node_modules
 -> npm uninstall express (por exemplo)
 
 
+### executando um arquivo
+node nome_do_arquivo
+
+exemplo: 
+-> node app.js
+
+
+### parar/encerrar a execução
+-> CTRL + C
+
+
 ### Executando o servidor
 node "NOME DO ARQUIVO" Exemplo: node app
 
@@ -63,7 +74,6 @@ No package.json
 
 No prompt você executa:
 npm run dev
-
 
 
 ### Iniciando Servidor
