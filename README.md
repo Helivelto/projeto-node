@@ -21,7 +21,7 @@ exemplo:
 -> npm init -y
 
 
-### configuraçãp dp npm 'NA ESCOLA' (basta 1 vez)
+### configuraçãp do npm 'NA ESCOLA' (basta 1 vez)
 npm set strict-ssl false 
 npm config set registry https://registry.npmjs.org/
 
@@ -63,3 +63,17 @@ No package.json
 
 No prompt você executa:
 npm run dev
+
+
+
+### Iniciando Servidor
+Após a instalação do express, cria-se um arquivo app.js e coloque o seguinte código
+
+const express = require('express')
+const app = express()
+ 
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+ 
+app.listen(3000)
